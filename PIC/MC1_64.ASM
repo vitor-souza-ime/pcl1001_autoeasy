@@ -14,58 +14,58 @@
 ;* 24/12/2004 MC1_3.ASM  ==> MELHORA NA ROTINA DE 						*
 ;*			     ESCRITA/LEITURA I2C						*
 ;* 25/12/2004 MC1_4.ASM  ==> CONTROLE DO DISPLAY LCD	E COMU_ 				*
-;*			     CA«√O VIA 232  ESCRITA/LEITURA  					*
-;*			     NA MEM”RIA RS24C16				-			*
-;* 25/12/2004 MC1_5.ASM  ==> INÕCIO DA INTRODU«√O DA M¡QUINA DE DECODIFICA«√O			*
-;*			     ACIONAMENTO DOS REL S						*
-;* 27/12/2004 MC1_6.ASM  ==> COLOCADO NOVAS FUN«’ES DE DECODIFICA«√O				*
-;* 27/12/2004 MC1_7.ASM  ==> COLOCADO NOVAS FUN«’ES DE DECODIFICA«√O				*
-;* 27/12/2004 MC1_8.ASM  ==> COLOCADO NOVAS FUN«’ES DE DECODIFICA«√O				*
-;* 27/12/2004 MC1_9.ASM  ==> COLOCADO NOVAS FUN«’ES DE DECODIFICA«√O				*												*
-;* 28/12/2004 MC1_10.ASM ==> COLOCADO NOVAS FUN«’ES DE DECODIFICA«√O				*
-;* 29/12/2004 MC1_11.ASM ==> COLOCADO NOVAS FUN«’ES DE DECODIFICA«√O				*
-;* 29/12/2004 MC1_12.ASM ==> COLOCADO NOVAS FUN«’ES DE DECODIFICA«√O				*
-;* 30/12/2004 MC1_13.ASM ==> COLOCADO NOVAS FUN«’ES DE DECODIFICA«√O				*
-;* 30/12/2004 MC1_14.ASM ==> COLOCADO NOVAS FUN«’ES DE DECODIFICA«√O				*
-;* 30/12/2004 MC1_15.ASM ==> COLOCADO NOVAS FUN«’ES DE DECODIFICA«√O				*
-;* 30/12/2004 MC1_16.ASM ==> ALTERA«√O NOS IOS							*
-;* 30/12/2004 MC1_17.ASM ==> ALTERA«√O NOS IOS							*
+;*			     CA√á√ÉO VIA 232  ESCRITA/LEITURA  					*
+;*			     NA MEM√ìRIA RS24C16				-			*
+;* 25/12/2004 MC1_5.ASM  ==> IN√çCIO DA INTRODU√á√ÉO DA M√ÅQUINA DE DECODIFICA√á√ÉO			*
+;*			     ACIONAMENTO DOS REL√äS						*
+;* 27/12/2004 MC1_6.ASM  ==> COLOCADO NOVAS FUN√á√ïES DE DECODIFICA√á√ÉO				*
+;* 27/12/2004 MC1_7.ASM  ==> COLOCADO NOVAS FUN√á√ïES DE DECODIFICA√á√ÉO				*
+;* 27/12/2004 MC1_8.ASM  ==> COLOCADO NOVAS FUN√á√ïES DE DECODIFICA√á√ÉO				*
+;* 27/12/2004 MC1_9.ASM  ==> COLOCADO NOVAS FUN√á√ïES DE DECODIFICA√á√ÉO				*												*
+;* 28/12/2004 MC1_10.ASM ==> COLOCADO NOVAS FUN√á√ïES DE DECODIFICA√á√ÉO				*
+;* 29/12/2004 MC1_11.ASM ==> COLOCADO NOVAS FUN√á√ïES DE DECODIFICA√á√ÉO				*
+;* 29/12/2004 MC1_12.ASM ==> COLOCADO NOVAS FUN√á√ïES DE DECODIFICA√á√ÉO				*
+;* 30/12/2004 MC1_13.ASM ==> COLOCADO NOVAS FUN√á√ïES DE DECODIFICA√á√ÉO				*
+;* 30/12/2004 MC1_14.ASM ==> COLOCADO NOVAS FUN√á√ïES DE DECODIFICA√á√ÉO				*
+;* 30/12/2004 MC1_15.ASM ==> COLOCADO NOVAS FUN√á√ïES DE DECODIFICA√á√ÉO				*
+;* 30/12/2004 MC1_16.ASM ==> ALTERA√á√ÉO NOS IOS							*
+;* 30/12/2004 MC1_17.ASM ==> ALTERA√á√ÉO NOS IOS							*
 ;* 01/01/2005 MC1_18.ASM ==> RETIRADO O CLOCK EXTERNO PARA GANHAR DOIS PINOS DE IO. COLOCADO AD *
-;* 30/12/2004 MC1_19.ASM ==> ALTERA«√O NOS IOS							*
-;* 30/12/2004 MC1_20.ASM ==> ALTERA«√O NOS IOS							*
-;* 30/12/2004 MC1_21.ASM ==> ALTERA«√O NOS IOS							*
+;* 30/12/2004 MC1_19.ASM ==> ALTERA√á√ÉO NOS IOS							*
+;* 30/12/2004 MC1_20.ASM ==> ALTERA√á√ÉO NOS IOS							*
+;* 30/12/2004 MC1_21.ASM ==> ALTERA√á√ÉO NOS IOS							*
 ;*            MC1_22.ASM ==> ...								*
 ;*            MC1_23.ASM ==> ...								*
 ;*            MC1_24.ASM ==> ...								*	
 ;*            MC1_25.ASM ==> ...								*
-;* 13/01/2005 MC1_27.ASM ==> VERS√O 648A							*		
-;* 15/01/2005 MC1_28.ASM ==> N√O OBTIVE SUCESSO AO COLOCAR A FUN«√O FREQUENCY_OUT		*
-;* 15/01/2005 MC1_29.ASM ==> ROTINAS MATEM¡TICAS						*
-;* 15/01/2005 MC1_30.ASM ==> MELHORAMENTO DAS ROTINAS MATEM¡TICAS PARA TRABALHAR		*	
+;* 13/01/2005 MC1_27.ASM ==> VERS√ÉO 648A							*		
+;* 15/01/2005 MC1_28.ASM ==> N√ÉO OBTIVE SUCESSO AO COLOCAR A FUN√á√ÉO FREQUENCY_OUT		*
+;* 15/01/2005 MC1_29.ASM ==> ROTINAS MATEM√ÅTICAS						*
+;* 15/01/2005 MC1_30.ASM ==> MELHORAMENTO DAS ROTINAS MATEM√ÅTICAS PARA TRABALHAR		*	
 ;*			     COM MAIS BITS							*				
-;* 15/01/2005 MC1_31.ASM ==> VERS√O QUE SUPORTA 8 VARI¡VEIS E FUN«√O BINARY			*
-;* 16/01/2005 MC1_32.ASM ==> INCORPORADO A FUN«√O HEX E OUTROS					*
-;* 16/01/2005 MC1_33.ASM ==> INCLUÕDA A FUN«√O DE TRANSMISS√O DE DADOS EM BIN¡RIO, HEX, DEC E OCT.*
-;* 16/01/2005 MC1_34.ASM ==> REPEAT POR VARI¡VEL						*
+;* 15/01/2005 MC1_31.ASM ==> VERS√ÉO QUE SUPORTA 8 VARI√ÅVEIS E FUN√á√ÉO BINARY			*
+;* 16/01/2005 MC1_32.ASM ==> INCORPORADO A FUN√á√ÉO HEX E OUTROS					*
+;* 16/01/2005 MC1_33.ASM ==> INCLU√çDA A FUN√á√ÉO DE TRANSMISS√ÉO DE DADOS EM BIN√ÅRIO, HEX, DEC E OCT.*
+;* 16/01/2005 MC1_34.ASM ==> REPEAT POR VARI√ÅVEL						*
 ;* 16/01/2005 MC1_35.ASM ==> NOVOS COMANDOS0							*
 ;* 18/01/2005 MC1_36.ASM ==> COLOCADO O CALL							*
 ;* 19/01/2005 MC1_37.ASM ==> NOVOS COMANDOS							*	
-;* 21/01/2005 MC1_38.ASM ==> NOVOS COMANDOS, IMPLEMENTADO A FUN«√O VELOCIDADE M…DIA		*
+;* 21/01/2005 MC1_38.ASM ==> NOVOS COMANDOS, IMPLEMENTADO A FUN√á√ÉO VELOCIDADE M√âDIA		*
 ;* 22/01/2005 MC1_39.ASM ==> NOVOS COMANDOS							*
 ;* 22/01/2005 MC1_40.ASM ==> NOVOS COMANDOS							*
-;* 23/01/2005 MC1_41.ASM ==> INCREMENTADO A FUN«√O JOGO						*	
-;* 27/01/2005 MC1_42.ASM ==> INCREMENTADO A VARI¡VEL GENERAL					*
-;* 29/01/2005 MC1_43.ASM ==> IMPLEMENTADA A FUN«√O RPM						*
-;* 29/01/2005 MC1_44.ASM ==> IMPLEMENTADA A FUN«√O DE C¡LCULO DA VELOCIDADE ANGULAR		*
-;* 20/01/2005 MC1_45.ASM ==> RETIRADO O PROBLEMA PARA SE GRAVAR UM NOVO PROGRAMA NA MEM”RIA	*		
-;* 03/04/2005 MC1_46.ASM ==> ALTERADO A INICIALIZA«√O DO CMCON					*	
-;* 16/04/2005 MC1_46.ASM ==> IMPLEMENTADO O COMANDO PERIODÕMETRO COM A PLACA DE C.IMPRESSO	*	
+;* 23/01/2005 MC1_41.ASM ==> INCREMENTADO A FUN√á√ÉO JOGO						*	
+;* 27/01/2005 MC1_42.ASM ==> INCREMENTADO A VARI√ÅVEL GENERAL					*
+;* 29/01/2005 MC1_43.ASM ==> IMPLEMENTADA A FUN√á√ÉO RPM						*
+;* 29/01/2005 MC1_44.ASM ==> IMPLEMENTADA A FUN√á√ÉO DE C√ÅLCULO DA VELOCIDADE ANGULAR		*
+;* 20/01/2005 MC1_45.ASM ==> RETIRADO O PROBLEMA PARA SE GRAVAR UM NOVO PROGRAMA NA MEM√ìRIA	*		
+;* 03/04/2005 MC1_46.ASM ==> ALTERADO A INICIALIZA√á√ÉO DO CMCON					*	
+;* 16/04/2005 MC1_46.ASM ==> IMPLEMENTADO O COMANDO PERIOD√çMETRO COM A PLACA DE C.IMPRESSO	*	
 ;* 16/04/2005 MC1_47.ASM ==> ???								*
 ;* 29/08/2005 MC1_48.ASM ==> AJUSTE DO SISTEMA							*	
-;* 03/10/2005 MC1_49.ASM ==> COMPATIBILIZA«√O DO SOFTWARE					*
-;* 17/01/2006 MC1_58.ASM ==> VERSAO SANTO IN¡CIO						*	
-;* 24/01/2006 MC1_59.ASM ==> VERS√O REVISADA PARA O CSI						*
-;* 12/03/2006 MC1_63.ASM ==> ALTERA«√O PARA LEITURA DO CANAL DE AD				*
+;* 03/10/2005 MC1_49.ASM ==> COMPATIBILIZA√á√ÉO DO SOFTWARE					*
+;* 17/01/2006 MC1_58.ASM ==> VERSAO SANTO IN√ÅCIO						*	
+;* 24/01/2006 MC1_59.ASM ==> VERS√ÉO REVISADA PARA O CSI						*
+;* 12/03/2006 MC1_63.ASM ==> ALTERA√á√ÉO PARA LEITURA DO CANAL DE AD				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	
 
 #INCLUDE <P16F648A.INC>
@@ -200,8 +200,8 @@
 	
 		CARACTER_ASCII
 		
-		GENERAL_LO			; VARI¡VEL GERAL PARTE BAIXA
-		GENERAL_HI			; VARI¡VEL GERAL PARTE ALTA
+		GENERAL_LO			; VARI√ÅVEL GERAL PARTE BAIXA
+		GENERAL_HI			; VARI√ÅVEL GERAL PARTE ALTA
 		
 		ANG_SPEED_LO			; VELOCIDADE ANGULAR
 						; PARTE BAIXA
@@ -221,72 +221,72 @@
 
 	CBLOCK 0xA0
 	
-		A_LO_LPA			; VARI¡VEL DO USU¡RIO LSB
-		A_HI_LPA			; VARI¡VEL DO USU¡RIO MSB
+		A_LO_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		A_HI_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 				
-		B_LO_LPA			; VARI¡VEL DO USU¡RIO LSB
-		B_HI_LPA			; VARI¡VEL DO USU¡RIO MSB
+		B_LO_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		B_HI_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 		
-		C_LO_LPA			; VARI¡VEL DO USU¡RIO LSB
-		C_HI_LPA			; VARI¡VEL DO USU¡RIO MSB
+		C_LO_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		C_HI_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 		
-		D_LO_LPA			; VARI¡VEL DO USU¡RIO LSB
-		D_HI_LPA			; VARI¡VEL DO USU¡RIO MSB
+		D_LO_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		D_HI_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 				
-		E_LO_LPA			; VARI¡VEL DO USU¡RIO LSB
-		E_HI_LPA			; VARI¡VEL DO USU¡RIO MSB
+		E_LO_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		E_HI_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 		
-		F_LO_LPA			; VARI¡VEL DO USU¡RIO LSB
-		F_HI_LPA			; VARI¡VEL DO USU¡RIO MSB
+		F_LO_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		F_HI_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 		
-		G_LO_LPA			; VARI¡VEL DO USU¡RIO LSB
-		G_HI_LPA			; VARI¡VEL DO USU¡RIO MSB
+		G_LO_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		G_HI_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 				
-		H_LO_LPA			; VARI¡VEL DO USU¡RIO LSB
-		H_HI_LPA			; VARI¡VEL DO USU¡RIO MSB
+		H_LO_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		H_HI_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 	
-		A_CARACTER_LPA			; VARI¡VEL CARACTER DO USU¡RIO
+		A_CARACTER_LPA			; VARI√ÅVEL CARACTER DO USU√ÅRIO
 		
-		B_CARACTER_LPA			; VARI¡VEL CARACTER DO USU¡RIO
+		B_CARACTER_LPA			; VARI√ÅVEL CARACTER DO USU√ÅRIO
 		
-		C_CARACTER_LPA			; VARI¡VEL CARACTER DO USU¡RIO
+		C_CARACTER_LPA			; VARI√ÅVEL CARACTER DO USU√ÅRIO
 		
-		D_CARACTER_LPA			; VARI¡VEL CARACTER DO USU¡RIO
+		D_CARACTER_LPA			; VARI√ÅVEL CARACTER DO USU√ÅRIO
 		
-		E_CARACTER_LPA			; VARI¡VEL CARACTER DO USU¡RIO
+		E_CARACTER_LPA			; VARI√ÅVEL CARACTER DO USU√ÅRIO
 		
-		F_CARACTER_LPA			; VARI¡VEL CARACTER DO USU¡RIO
+		F_CARACTER_LPA			; VARI√ÅVEL CARACTER DO USU√ÅRIO
 		
-		G_CARACTER_LPA			; VARI¡VEL CARACTER DO USU¡RIO
+		G_CARACTER_LPA			; VARI√ÅVEL CARACTER DO USU√ÅRIO
 		
-		H_CARACTER_LPA			; VARI¡VEL CARACTER DO USU¡RIO
+		H_CARACTER_LPA			; VARI√ÅVEL CARACTER DO USU√ÅRIO
 	
-		A_LO_CASA1_LPA			; VARI¡VEL DO USU¡RIO LSB
-		A_HI_CASA1_LPA			; VARI¡VEL DO USU¡RIO MSB
+		A_LO_CASA1_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		A_HI_CASA1_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 				
-		B_LO_CASA1_LPA			; VARI¡VEL DO USU¡RIO LSB
-		B_HI_CASA1_LPA			; VARI¡VEL DO USU¡RIO MSB
+		B_LO_CASA1_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		B_HI_CASA1_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 		
-		C_LO_CASA1_LPA			; VARI¡VEL DO USU¡RIO LSB
-		C_HI_CASA1_LPA			; VARI¡VEL DO USU¡RIO MSB
+		C_LO_CASA1_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		C_HI_CASA1_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 		
-		D_LO_CASA1_LPA			; VARI¡VEL DO USU¡RIO LSB
-		D_HI_CASA1_LPA			; VARI¡VEL DO USU¡RIO MSB
+		D_LO_CASA1_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		D_HI_CASA1_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 				
-		A_LO_CASA2_LPA			; VARI¡VEL DO USU¡RIO LSB
-		A_HI_CASA2_LPA			; VARI¡VEL DO USU¡RIO MSB
+		A_LO_CASA2_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		A_HI_CASA2_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 		
-		B_LO_CASA2_LPA			; VARI¡VEL DO USU¡RIO LSB
-		B_HI_CASA2_LPA			; VARI¡VEL DO USU¡RIO MSB
+		B_LO_CASA2_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		B_HI_CASA2_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 		
-		C_LO_CASA2_LPA			; VARI¡VEL DO USU¡RIO LSB
-		C_HI_CASA2_LPA			; VARI¡VEL DO USU¡RIO MSB
+		C_LO_CASA2_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		C_HI_CASA2_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 				
-		D_LO_CASA2_LPA			; VARI¡VEL DO USU¡RIO LSB
-		D_HI_CASA2_LPA			; VARI¡VEL DO USU¡RIO MSB
+		D_LO_CASA2_LPA			; VARI√ÅVEL DO USU√ÅRIO LSB
+		D_HI_CASA2_LPA			; VARI√ÅVEL DO USU√ÅRIO MSB
 		
-		RPM_LO				; ROTA«√O POR MINUTO LO
-		RPM_HI				; ROTA«√O POR MINUTO HI
+		RPM_LO				; ROTA√á√ÉO POR MINUTO LO
+		RPM_HI				; ROTA√á√ÉO POR MINUTO HI
 		
 		ALETAS
 		ALETAS_2
@@ -346,21 +346,21 @@
 								; 1-> ESC. DADO NA MEMORIA
 								; 0-> NAO ESCREVE NADA
 
-#DEFINE TEM_PROG	    FLAGS0,4				; EXISTE PROGRAMA NA MEM”RIA?
+#DEFINE TEM_PROG	    FLAGS0,4				; EXISTE PROGRAMA NA MEM√ìRIA?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE ERRO		    FLAGS0,5				; ERRO NO TRATAMENTO DE DADOS
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE FIM_PROG 	    FLAGS0,6				; FIM DO PROGRAMA
 								; 1-> FIM DO PROGRAMA
-								; 0-> N√O	 
+								; 0-> N√ÉO	 
 									
 #DEFINE GRAVA_2		    FLAGS0,7				; DEVE GRAVAR O CARACTERE 2
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 								
 
 #DEFINE OPERACAO	    FLAGS1,0				; DEVE RETORNAR OU INCREMENTAR PONTEIRO?
@@ -368,51 +368,51 @@
 								; 0-> INCREMENTAR O PONTEIRO
 
 #DEFINE F_INC		    FLAGS1,1				; DEVE INCREMENTAR O PONTEIRO?
-								; 1-> N√O
+								; 1-> N√ÉO
 								; 0-> SIM
 
-#DEFINE FUNCTION2	    FLAGS1,2				; DEVE PROCESSAR A SEGUNDA FUN«√O?
+#DEFINE FUNCTION2	    FLAGS1,2				; DEVE PROCESSAR A SEGUNDA FUN√á√ÉO?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
-#DEFINE FUNCTION2_DO	    FLAGS1,3				; DEVE PROCESSAR A SEGUNDA FUN«√O?
+#DEFINE FUNCTION2_DO	    FLAGS1,3				; DEVE PROCESSAR A SEGUNDA FUN√á√ÉO?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
-#DEFINE OUTRO_ESTADO	    FLAGS1,4				; DEVE TRATAR O OUTRO BOT√O?
+#DEFINE OUTRO_ESTADO	    FLAGS1,4				; DEVE TRATAR O OUTRO BOT√ÉO?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 								
 
-#DEFINE DADO_RX		    FLAGS1,5				; H¡ DADO NO BUFFER SERIAL?
+#DEFINE DADO_RX		    FLAGS1,5				; H√Å DADO NO BUFFER SERIAL?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE F_RTC		    FLAGS1,6				; AJUSTE DE HORA?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE ESTOURO_COUNTER1    FLAGS1,7				; ESTOURO DO COUNTER1 
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 	
 
-#DEFINE FREQ		    FLAGS2,0				; EM MODO FREQU NCIA?	
+#DEFINE FREQ		    FLAGS2,0				; EM MODO FREQU√äNCIA?	
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 								
 
-#DEFINE F_CONVER	    FLAGS2,1				; DEVE ATUALIZAR REGISTRADORES DE CONVERS√O?
+#DEFINE F_CONVER	    FLAGS2,1				; DEVE ATUALIZAR REGISTRADORES DE CONVERS√ÉO?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
-#DEFINE F_STOPWATCH	    FLAGS2,2				; DEVE PROCESSAR O CRON‘METRO?
+#DEFINE F_STOPWATCH	    FLAGS2,2				; DEVE PROCESSAR O CRON√îMETRO?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 								
 
 #DEFINE F_DISPOUSERIAL	    FLAGS2,3				; DEVE ENVIAR PARA O DISPLAY OU SER?
@@ -427,75 +427,75 @@
 
 #DEFINE PISCA_LED1          FLAGS2,5				; DEVE PISCAR O LED1?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 								
 
 #DEFINE PISCA_LED2          FLAGS2,6				; DEVE PISCAR O LED2?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE ESCOLHE_RETORNO     FLAGS2,7				; DEVE RETORNAR OU INC?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE OR_TRUE	 	    FLAGS3,0				; DEVE PROCESSAR O AND?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
-#DEFINE F_NEGACAO	    FLAGS3,1				; DEVE PROCESSAR A FUN«√O NEGA«√O? 
+#DEFINE F_NEGACAO	    FLAGS3,1				; DEVE PROCESSAR A FUN√á√ÉO NEGA√á√ÉO? 
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
-#DEFINE F_DATA		    FLAGS3,2				; DEVE PROCESSAR A FUN«√O DATA?
+#DEFINE F_DATA		    FLAGS3,2				; DEVE PROCESSAR A FUN√á√ÉO DATA?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
-#DEFINE RESET		    FLAGS3,3				; DEVE RESETAR A M¡QUINA?
+#DEFINE RESET		    FLAGS3,3				; DEVE RESETAR A M√ÅQUINA?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE OSC_RELE1	    FLAGS3,4				; DEVE OSCILAR O RELE 1 ?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE OSC_RELE2	    FLAGS3,5				; DEVE OSCILAR O RELE 2 ?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE OSC_RELE3	    FLAGS3,6				; DEVE OSCILAR O RELE 3 ?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE OSC_RELE4	    FLAGS3,7				; DEVE OSCILAR O RELE 4 ?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE OSC_RELE5	    FLAGS4,0				; DEVE OSCILAR O RELE 5 ?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE OSC_RELE6	    FLAGS4,1				; DEVE OSCILAR O RELE 6 ?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE F_IGUAL		    FLAGS4,2				; TESTA IGUAL?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE MODO_COUNTER	    FLAGS4,3				; MODO CONTADOR?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE OSC_DISPLAY	    FLAGS4,4				; DEVE OSCILAR O DISPLAY?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE FLAG_DISPLAY	    FLAGS4,5				; AUXILIAR DO DISPLAY
@@ -504,91 +504,91 @@
 
 #DEFINE PERCENTAGEM	    FLAGS4,6				; DEVE TESTAR IGUALDADE?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE NUM_STRING	    FLAGS4,7				; DEVE TRATAR NUM OU CARACTER?
 								; 1-> CARACTER
-								; 0-> NUM…RICO
+								; 0-> NUM√âRICO
 
 
 #DEFINE MODO_SPEED	    FLAGS5,0				; MODO VELOCIDADE?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
-#DEFINE MODO_VARIAVEL	    FLAGS5,1				; MODO VARI¡VEL?
+#DEFINE MODO_VARIAVEL	    FLAGS5,1				; MODO VARI√ÅVEL?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE MODO_HIPOTENUSA	    FLAGS5,2				; MODO HIPOTENUSA?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE SHUTDOWN	    FLAGS5,3				; MODO SHUTDOWN?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE ECHO_DATA	    FLAGS5,4				; DEVE ECOAR DADOS?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE F_TERMINAL	    FLAGS5,5				; DEVE TRATAR O TERMINAL?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE	ACHOU_CARACTER	    FLAGS5,6				; ACHOU_CARACTER?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE	CAR_1		    FLAGS5,7				; ACHOU CARACTERE 1?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE	CAR_2		    FLAGS6,0				; ACHOU CARACTERE 2?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE	CAR_3		    FLAGS6,1				; ACHOU CARACTERE 3?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE	CAR_4		    FLAGS6,2				; ACHOU CARACTERE 4?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE	GAME_WINNER	    FLAGS6,3				; VENCEU O JOGO?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE	F_GERAL		    FLAGS6,4				; FLAG DE USO GERAL
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 
 #DEFINE	MODO_RPM 	    FLAGS6,5				; DEVE CONVERTER PARA RPM?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE	MODO_PERIODIMETRO    FLAGS6,6				; DEVE FPARA RPM?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE	PODE_CONVERTER	     FLAGS6,7				; DEVE MOSTRAR OS DADOS?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
-#DEFINE	MODO_PANEL	     FLAGS7,0				; EST¡ NO MODO PANEL?
+#DEFINE	MODO_PANEL	     FLAGS7,0				; EST√Å NO MODO PANEL?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 
 #DEFINE	FIM_TERM	     FLAGS7,1				; SAI DO TERM?
 								; 1-> SIM
-								; 0-> N√O
+								; 0-> N√ÉO
 								
 #DEFINE FLAG1_LPA	    FLAG_LPA,0				; FLAG DO SISTEMA
 								; 1-> TRUE
@@ -680,7 +680,7 @@
 #DEFINE	RX_DATA	   PORTB,1
 #DEFINE COMP	   PORTA,5
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  		 DEFINICAO DE SAÕDAS					*
+;*			  		 DEFINICAO DE SA√çDAS					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 #DEFINE	CLOCK	 PORTB,0
@@ -715,17 +715,17 @@
 #DEFINE RELE5POS	REG_74_HI,1
 #DEFINE	RELE6		REG_74_HI,3			
 #DEFINE LED2	 	REG_74_HI,4
-						;REGISTRADORES PARA O REL… 
+						;REGISTRADORES PARA O REL√â 
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	 	  		  DEFINICAO DE ENTRADAS/SAÕDAS				*
+;*	 	  		  DEFINICAO DE ENTRADAS/SA√çDAS				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 #DEFINE SDA 	 PORTA,1
 #DEFINE TRIS_SDA TRISA,1
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  	INICIALIZA«√O DA EEPROM						*
+;*			  	INICIALIZA√á√ÉO DA EEPROM						*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 	ORG 0x2100
@@ -760,7 +760,7 @@ RESETA
 	GOTO	CONFIG_
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  	      VETOR DE INTERRUP«√O					*
+;*			  	      VETOR DE INTERRUP√á√ÉO					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 	ORG 0x0004
@@ -803,7 +803,7 @@ SAI_INT
 	RETFIE
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  		  TRATAMENTO DAS ISR¥S					*
+;*			  		  TRATAMENTO DAS ISR¬¥S					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -925,11 +925,11 @@ ISR_TIMER1_B
 	BTFSC	MODO_SPEED
 	INCF	TEMPO_VELOCIMETRO,F
 	
-	BTFSS	SHUTDOWN		; EST¡ EM MODO SHUTDOWN?
-	GOTO	ISR_TIMER1_X		; N√O
+	BTFSS	SHUTDOWN		; EST√Å EM MODO SHUTDOWN?
+	GOTO	ISR_TIMER1_X		; N√ÉO
 	
 	DECFSZ	REG_SHUTDOWN,F		; CHEGOU AO FIM DA CONTAGEM?
-	GOTO	ISR_TIMER1_X		; N√O
+	GOTO	ISR_TIMER1_X		; N√ÉO
 					; SIM!
 
 	MOVLW	B'00001000'		; DESLIGA O 
@@ -938,7 +938,7 @@ ISR_TIMER1_B
 	CLRF	REG_74_LO
 	CLRF	REG_74_HI		; DESLIGA O SHIFT-REGISTER
 	
-	CALL	OUT_DADOS_B		; DESLIGA TODAS AS SAÕDAS
+	CALL	OUT_DADOS_B		; DESLIGA TODAS AS SA√çDAS
 	
 	SLEEP				; ENTRA EM MODO DE BAIXO CONSUMO
 	
@@ -955,7 +955,7 @@ ISR_TIMER1_X
 	
 	;GOTO	$+4
 	;BTFSC	STATUS,Z		;CHEGOU AO FIM?
-	;BSF	FIM_TERM		;SIM, ENT√O ATUALIZA
+	;BSF	FIM_TERM		;SIM, ENT√ÉO ATUALIZA
 	
 	MOVLW	.2
 	MOVWF	VEZES_RTC
@@ -1076,7 +1076,7 @@ SALTO_MES
 	NOP
 	RETLW	.32		; JANEIRO
 	GOTO	TRATA_FEVEREIRO
-	RETLW	.32		; MAR«O
+	RETLW	.32		; MAR√áO
 	RETLW	.31		; ABRIL
 	RETLW	.32		; MAIO
 	RETLW	.31		; JUNHO
@@ -1133,7 +1133,7 @@ ISR_SERIAL
 	;INCF	RANDOM,F
 	
 	BTFSS	RCSTA,FERR			; ERRO DE QUADRO?
-	GOTO	ISR_SERIAL_A			; N√O
+	GOTO	ISR_SERIAL_A			; N√ÉO
 						; SIM
 	MOVF	RCREG,W
 	MOVLW	NACK
@@ -1264,7 +1264,7 @@ RECEBE_CARACTERE
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	  	                         OSCILA«√O DE LED					*
+;*	  	                         OSCILA√á√ÉO DE LED					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 OSC_LED1
@@ -1351,7 +1351,7 @@ OSCILA_RELE6
 	GOTO	OUT_DADOS_B
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*   	             ROTINA DE CONVERS√O BIN¡RIO PARA DECIMAL				*	*
+;*   	             ROTINA DE CONVERS√ÉO BIN√ÅRIO PARA DECIMAL				*	*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 CONVERSAO_FREQUENCIA
@@ -1359,11 +1359,11 @@ CONVERSAO_FREQUENCIA
 	
 	BCF	F_CONVER
 
-	BTFSS	MODO_PERIODIMETRO	; EST¡ EM MODO PERIODÕMETRI
+	BTFSS	MODO_PERIODIMETRO	; EST√Å EM MODO PERIOD√çMETRI
 	GOTO	BIN_TO_DEC		; ENTAO CONVERTE OS DADOS
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*  	             ROTINA DE CONVERS√O DE FREQUENCIA PARA PERÕODO			*	*
+;*  	             ROTINA DE CONVERS√ÉO DE FREQUENCIA PARA PER√çODO			*	*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 CONVERTE_TO_PERIODO
@@ -1465,7 +1465,7 @@ LIMPA_PONTEIRO
 	RETURN
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	 	    ESCREVE DADOS NA MEM”RIA DE PROGRAMA			*
+;*	 	    ESCREVE DADOS NA MEM√ìRIA DE PROGRAMA			*
 ;*	*	*	*	*	*	*	*	*	*	*	*	* 	*	*	*
 
 ;ESCREVE_MEMORIA_PROG
@@ -1500,7 +1500,7 @@ TXDATA_TO_PC
 	RETURN
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	  		  CONFIGURA«√O DOS PINOS COMO SAÕDA				*
+;*	  		  CONFIGURA√á√ÉO DOS PINOS COMO SA√çDA				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 CONFIG_TRIS_OUT
@@ -1514,7 +1514,7 @@ CONFIG_TRIS_OUT
 	RETURN
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	   		CONFIGURA«√O DOS PINOS COMO ENTRADA				*
+;*	   		CONFIGURA√á√ÉO DOS PINOS COMO ENTRADA				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 CONFIG_TRIS_IN
@@ -1534,7 +1534,7 @@ LCD_COMANDO_4					; ENVIA COMANDOS DE 4 BITS
 
 	;CLRWDT
 	;BCF	RS				; PREPARA ENVIO DE UM COMANDO
-	MOVWF	CARACTER			; CARREGA COMANDO QUE SER¡ ENVIADO
+	MOVWF	CARACTER			; CARREGA COMANDO QUE SER√Å ENVIADO
 	CALL	CONFIG_TRIS_OUT
 	BCF	RS
 	GOTO	ENVIA_DISP_4			; ENVIA...
@@ -1574,8 +1574,8 @@ ENVIA_DISP_A
 	BTFSC	CARACTER,4
 	BSF	DB4			; COPIA BITS +SIG DE CARACTER PARA D7..D4
 	
-	GOTO	$+1			; TEMPO DE ESTABILIZA«√O				
-	GOTO	$+1			; TEMPO DE ESTABILIZA«√O				
+	GOTO	$+1			; TEMPO DE ESTABILIZA√á√ÉO				
+	GOTO	$+1			; TEMPO DE ESTABILIZA√á√ÉO				
 	
 	BCF	ENABLE
 	CALL    DELAY_DISP3		; CHAMA DELAY DE +/- 150us
@@ -1599,14 +1599,14 @@ ENVIA_DISP_4				; ENVIA SOMENTE OS 4 BITS (-SIG) DO REG. E_LCD_VAR
 	BTFSC	CARACTER,0
 	BSF	DB4					; COPIA BITS -SIG DE E_LCD_VAR PARA D7..D4
 	
-	GOTO	$+1			; TEMPO DE ESTABILIZA«√O				
-	GOTO	$+1			; TEMPO DE ESTABILIZA«√O				
+	GOTO	$+1			; TEMPO DE ESTABILIZA√á√ÉO				
+	GOTO	$+1			; TEMPO DE ESTABILIZA√á√ÉO				
 	
 	BCF	ENABLE
 	CALL    DELAY_DISP3		; CHAMA DELAY DE +/- 150us
 	BSF	ENABLE				; PROVOCA PULSO NO ENABLE	
 
-	BSF	RS					; SELECIONA PADR√O DE ENVIO DE UM CARACTER
+	BSF	RS					; SELECIONA PADR√ÉO DE ENVIO DE UM CARACTER
 	CALL	CONFIG_TRIS_IN
 	
 	MOVLW	.220
@@ -1631,7 +1631,7 @@ DELAY_MS
 	MOVLW	.255
 	MOVWF	TEMPO2
 	
-	;BTFSC	MODO_PGM			; DEVE ENTRAR EM MODO DE PROGRAMA«√O?
+	;BTFSC	MODO_PGM			; DEVE ENTRAR EM MODO DE PROGRAMA√á√ÉO?
 	;RETURN
 	;NOP
 	;NOP
@@ -1758,7 +1758,7 @@ START_I2C
 	RETURN
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*		  		  ROTINA DE TRANSMISS√O I2C					*
+;*		  		  ROTINA DE TRANSMISS√ÉO I2C					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 TX_I2C
@@ -1911,7 +1911,7 @@ SALTO_TABELA
 		
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*		  		  DECODIFICA«√O DE INSTRU«√O				*
+;*		  		  DECODIFICA√á√ÉO DE INSTRU√á√ÉO				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 DECODIFICA_INSTRUCAO
@@ -2145,7 +2145,7 @@ SALTO_DEC_INSTRUCAO
 	
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*		  				    EXECU«√O DE MICROINSTRU«’ES						*
+;*		  				    EXECU√á√ÉO DE MICROINSTRU√á√ïES						*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
@@ -2157,7 +2157,7 @@ ATRIBUI_A_AD_READ
 	CALL	LEITURA_AD
 	BANK1
 	MOVWF	A_LO_LPA			; CARREGA EM A%, O VALOR DA LEITURA DE AD
-	CLRF	A_HI_LPA			; LIMPA A PARTE SUPERIOR, POIS ESTA N√O … UTILIZADA
+	CLRF	A_HI_LPA			; LIMPA A PARTE SUPERIOR, POIS ESTA N√ÉO √â UTILIZADA
 	BANK0
 	GOTO	INC_PONTEIRO
 	
@@ -2362,7 +2362,7 @@ IF_NOT_COMPARATOR
 	GOTO	INC_PONTEIRO
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  	    MUDA O ESTADO DA SAÕDA					*
+;*			  	    MUDA O ESTADO DA SA√çDA					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 TOGGLE_RELE1
@@ -2399,7 +2399,7 @@ TOGGLE_RELE6
 
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  	  MUDAN«A DE BASE DE VOLTAGEM					*
+;*			  	  MUDAN√áA DE BASE DE VOLTAGEM					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 MUDA_BASE_VOLTAGE
@@ -2409,7 +2409,7 @@ MUDA_BASE_VOLTAGE
 	GOTO	INC_PONTEIRO
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  		  FUN«√O ALARME					*
+;*			  		  FUN√á√ÉO ALARME					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 TESTE_DE_TEMPO
@@ -2699,7 +2699,7 @@ TXDATA_DECIMAL
 	GOTO	DISP1_DEC_B
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	                    ROTINA DE MULTIPLICA«√O DE 16 BITS					*		
+;*	                    ROTINA DE MULTIPLICA√á√ÉO DE 16 BITS					*		
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 MULTIPLY
@@ -2735,7 +2735,7 @@ MULTIPLY_A
 	RETURN
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*  		                    ROTINA DE SAÕDA DE TENS√O					*		
+;*  		                    ROTINA DE SA√çDA DE TENS√ÉO					*		
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 SAIDA_DE_TENSAO
@@ -3267,7 +3267,7 @@ IF_COUNTER1
 	
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	       		            COMANDOS DO CRON‘METRO					*
+;*	       		            COMANDOS DO CRON√îMETRO					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 TXDATA_STOPWATCH
@@ -3385,7 +3385,7 @@ CARREGA_PONTEIRO
 	GOTO	INC_PONTEIRO
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	       		     TRANSMISS√O DE PROGRAMA PELO CANAL SERIAL					*
+;*	       		     TRANSMISS√ÉO DE PROGRAMA PELO CANAL SERIAL					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 TXPROG
@@ -4066,7 +4066,7 @@ EXIT_REPEAT
 	GOTO	PROCURA_CARACTERE
 		
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	     		      ROTINA DE PROCURA DE C”DIGO NA MEM”RIA					*
+;*	     		      ROTINA DE PROCURA DE C√ìDIGO NA MEM√ìRIA					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 PROCURA_CARACTERE
@@ -4150,7 +4150,7 @@ ROTATE_MESSAGE_TORIGHT
 
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	  		       TRANSMISS√O/RECEP«√O DE DADOS PELA USART					*
+;*	  		       TRANSMISS√ÉO/RECEP√á√ÉO DE DADOS PELA USART					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 RECEPCAO_SERIAL
@@ -4186,8 +4186,8 @@ TRANSMITE_DADOS_A
 	DECFSZ	TEMP,F
 	GOTO	TRANSMITE_DADOS_A
 	
-	BTFSS	MODO_PANEL		; EST¡ NO MODO PANEL?
-	GOTO	TRANSMITE_FIM		; N√O
+	BTFSS	MODO_PANEL		; EST√Å NO MODO PANEL?
+	GOTO	TRANSMITE_FIM		; N√ÉO
 	GOTO	INC_PONTEIRO		; SIM
 	
 	;MOVLW	LF
@@ -4224,7 +4224,7 @@ TRATA_DELAY_SEG_A
 	GOTO	INC_PONTEIRO	
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*		  		   ACIONAMENT0/DE DOS REL S					*
+;*		  		   ACIONAMENT0/DE DOS REL√äS					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 OSCILACAO_RELE1
@@ -4488,7 +4488,7 @@ DESLIGA_RELE6
 	BCF	RELE6
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	 		  SAÕDA DE DADOS PARA SHIFT REGISTER			*
+;*	 		  SA√çDA DE DADOS PARA SHIFT REGISTER			*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 OUT_DADOS
@@ -4507,7 +4507,7 @@ OUT_DADOS
 	
 	MOVF	REG_74_HI,W
 	BANK1
-	MOVWF	ESP_74_HI				;MOVE OS VALORES A SEREM CARREGADOS NA SAÕDA
+	MOVWF	ESP_74_HI				;MOVE OS VALORES A SEREM CARREGADOS NA SA√çDA
 	BANK0	
 	
 	;BCF	INTCON,GIE
@@ -4552,7 +4552,7 @@ OUT_DADOS_B
 	
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*		  		COMANDO N√O IDENTIFICADO					*
+;*		  		COMANDO N√ÉO IDENTIFICADO					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 	
 ERRO_COMANDO
@@ -4585,7 +4585,7 @@ FIM_DO_PROGRAMA
 			
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  		  FIM DA P¡GINA 0					*
+;*			  		  FIM DA P√ÅGINA 0					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 	ORG 0x07FF
@@ -4594,14 +4594,14 @@ FIM_DO_PROGRAMA
 	
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  		  INÕCIO DA P¡GINA 1					*
+;*			  		  IN√çCIO DA P√ÅGINA 1					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 
 	ORG 0x0800
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  		  DECODIFICA«√O DE INTRU«’ES II					*
+;*			  		  DECODIFICA√á√ÉO DE INTRU√á√ïES II					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 DECODIFICA_INSTRUCAO_II
@@ -4809,7 +4809,7 @@ POE_EM_PANEL
 	GOTO	INC_PONTEIRO2
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*                ROTINAS PARA CALCULO DO PERIODÕMETRO 				*
+;*                ROTINAS PARA CALCULO DO PERIOD√çMETRO 				*
 ;*	*	*	*	*	*	*	*	*	*	*
 
 DISP1_PERIODIMETER
@@ -5092,7 +5092,7 @@ IF_TIME_MENOR
 	GOTO	INC_PONTEIRO2
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*                              FUN«√O GAME  				*
+;*                              FUN√á√ÉO GAME  				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 IFGAME
@@ -5164,8 +5164,8 @@ GAME_B
 	GOTO	$-3
 	
 	CALL	CARREGA_AUX2
-	BTFSS	INPUT1				; SENSOR 1 N√O ATIVO?
-	GOTO	$-2				; N√O, ENT√O AGUARDA
+	BTFSS	INPUT1				; SENSOR 1 N√ÉO ATIVO?
+	GOTO	$-2				; N√ÉO, ENT√ÉO AGUARDA
 	DECFSZ	AUX2,F
 	GOTO	$-3
 	
@@ -5481,18 +5481,18 @@ ALTERA_BAUD_RATE
 	GOTO	INC_PONTEIRO2	
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*              	APAGA PROGRAMA/DADOS DE USU¡RIO  				*
+;*              	APAGA PROGRAMA/DADOS DE USU√ÅRIO  				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 APAGA_PROGRAMA
 	
-	CLRF	ENDERECO_LO			; POSICIONA NO ENDERE«O 0
+	CLRF	ENDERECO_LO			; POSICIONA NO ENDERE√áO 0
 	CLRF	ENDERECO_HI
 	
-	MOVLW	.3				; ESCREVE C”DIGO PARA APAGAR
+	MOVLW	.3				; ESCREVE C√ìDIGO PARA APAGAR
 	MOVWF	BUFFER				; PROGRAMA	
 	PAGE0					
-	CALL	I2C_WRITE			; ESCREVE O DADO NA MEM”RIA
+	CALL	I2C_WRITE			; ESCREVE O DADO NA MEM√ìRIA
 	PAGE1
 	BSF	RESET
 	GOTO	INC_PONTEIRO2
@@ -5563,7 +5563,7 @@ CAR_MES_A
 	NOP
 	DT	"JAN"		; RETORNA JANEIRO
 	DT	"FEV"		; RETORNA FEVEREIRO
-	DT	"MAR"		; RETORNA MAR«O
+	DT	"MAR"		; RETORNA MAR√áO
 	DT	"ABR"		; RETORNA ABRIL
 	DT	"MAI"		; RETORNA MAIO
 	DT	"JUN"		; RETORNA JUNHO
@@ -5589,8 +5589,8 @@ DISP2_MONTH
 
 SHUTDOWN_ON
 	
-	BTFSC	SHUTDOWN			; MODO SHUTDOWN J¡ EST¡ ATIVO?
-	GOTO	INC_PONTEIRO2			; SIM, ENT√O N√O ATIVA NOVAMENTE
+	BTFSC	SHUTDOWN			; MODO SHUTDOWN J√Å EST√Å ATIVO?
+	GOTO	INC_PONTEIRO2			; SIM, ENT√ÉO N√ÉO ATIVA NOVAMENTE
 	
 	MOVLW	.120
 	MOVWF	REG_SHUTDOWN
@@ -5603,7 +5603,7 @@ SHUTDOWN_OFF
 	GOTO	INC_PONTEIRO2
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*    	                 CALCULO DA ¡REA DE UM CÕRCULO   				*
+;*    	                 CALCULO DA √ÅREA DE UM C√çRCULO   				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 CALCULA_AREA_CIRCUNFERENCIA
@@ -5646,7 +5646,7 @@ AREA_A
 	
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*    	            CALCULO DA CIRCUNFER NCIA DE UM CÕRCULO   				*
+;*    	            CALCULO DA CIRCUNFER√äNCIA DE UM C√çRCULO   				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 CALCULA_CIRCUNFERENCIA
@@ -5677,7 +5677,7 @@ CALCULA_CIRCUNFERENCIA
 	GOTO	INC_PONTEIRO2
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*    	            CALCULA A HIPOTENUSA DE UM TRI¬NGULO RETO   				*
+;*    	            CALCULA A HIPOTENUSA DE UM TRI√ÇNGULO RETO   				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 	
 CALCULA_HIPOTENUSA
@@ -5819,15 +5819,15 @@ ON_SPEED
 	
 	CALL	CARREGA_AUX2
 	BTFSC	INPUT1				; SENSOR 1 ATIVO?
-	GOTO	$-2				; N√O, ENT√O AGUARDA
+	GOTO	$-2				; N√ÉO, ENT√ÉO AGUARDA
 	DECFSZ	AUX2,F
 	GOTO	$-3
 	
-	BSF	MODO_SPEED			; SIM, P’E EM MODO SPEED
+	BSF	MODO_SPEED			; SIM, P√ïE EM MODO SPEED
 	
 	CALL	CARREGA_AUX2
-	BTFSS	INPUT1				; SENSOR 1 N√O ATIVO?
-	GOTO	$-2				; N√O, ENT√O AGUARDA
+	BTFSS	INPUT1				; SENSOR 1 N√ÉO ATIVO?
+	GOTO	$-2				; N√ÉO, ENT√ÉO AGUARDA
 	DECFSZ	AUX2,F
 	GOTO	$-3
 	
@@ -5921,7 +5921,7 @@ ACERTA_DATA_A
 	GOTO	INC_PONTEIRO2
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*    	                ROTINAS DE ACESSO ¡ VARI¡VEL CARACTER				*
+;*    	                ROTINAS DE ACESSO √Å VARI√ÅVEL CARACTER				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 TXDATA_CARACTER_ASCII
@@ -6007,15 +6007,15 @@ TESTE_CARACTER_LPA
 	GOTO	INC_PONTEIRO2
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*    	                ROTINAS CHAMADA DE ALTO-NÕVEL				*
+;*    	                ROTINAS CHAMADA DE ALTO-N√çVEL				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 CALL_LPA
 
-	CALL	LE_I2C_II		;L  A PARTE BAIXA
+	CALL	LE_I2C_II		;L√ä A PARTE BAIXA
 	MOVWF	AUX2
 	
-	CALL	LE_I2C_II		; L  A A PARTE ALTA
+	CALL	LE_I2C_II		; L√ä A A PARTE ALTA
 	
 	MOVF	ENDERECO_HI,W
 	MOVWF	ENDERECO_HI_CALL
@@ -6057,7 +6057,7 @@ SAI_CALL
 	
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*    	                ROTINAS DE DELAY COM VARI¡VEL				*
+;*    	                ROTINAS DE DELAY COM VARI√ÅVEL				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 DELAY_MS_VARIAVEL
@@ -6271,14 +6271,14 @@ SELECT_CASE
 	
 SELECT_CASE_A
 
-	CALL	LE_I2C_II			; L  PR”XIMO BYTE
+	CALL	LE_I2C_II			; L√ä PR√ìXIMO BYTE
 
 SELECT_CASE_X
 
 	MOVLW	.233				; 
 	XORWF	BUFFER,W
-	BTFSC	STATUS,Z			; … O CASE?
-	GOTO	SELECT_CASE_B			; N√O
+	BTFSC	STATUS,Z			; √â O CASE?
+	GOTO	SELECT_CASE_B			; N√ÉO
 	
 	MOVLW	.231
 	XORWF	BUFFER,W
@@ -6316,7 +6316,7 @@ CARACTER_OU_RXDATA
 	;BSF	INTCON,GIE
 	BTFSS	STATUS,Z
 	GOTO	SELECT_CASE_C
-	BCF	DADO_RX		; LIMPA FLAG DE RECEP«√O SERIAL
+	BCF	DADO_RX		; LIMPA FLAG DE RECEP√á√ÉO SERIAL
 	GOTO	EXECUTA_A
 
 SELECT_CASE_B
@@ -6422,7 +6422,7 @@ SELECT_CASE_D
 	
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*   	   	     TRATAMENTO DO COMANDO REPEAT POR VARI¡VEL				*
+;*   	   	     TRATAMENTO DO COMANDO REPEAT POR VARI√ÅVEL				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 TRATA_REPEAT_VARIAVEL
@@ -6438,7 +6438,7 @@ TRATA_REPEAT_VARIAVEL
 	GOTO	REPEAT_VAR
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*   	    TRANSMISS√O DE DADOS EM DECIMAL, HEXADECIMAL, BIN¡RIO E OCTAL				*
+;*   	    TRANSMISS√ÉO DE DADOS EM DECIMAL, HEXADECIMAL, BIN√ÅRIO E OCTAL				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 TXDATA_VAR_DEC
@@ -6463,7 +6463,7 @@ TXDATA_VAR_OCT
 
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	    	    ROTINA PARA VERIFICAR SE A SAÕDA TEM O VALOR ESPECIFICADO				*
+;*	    	    ROTINA PARA VERIFICAR SE A SA√çDA TEM O VALOR ESPECIFICADO				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 IF_OUT_VALOR
@@ -6504,7 +6504,7 @@ IF_IN_VALOR
 	GOTO	INC_PONTEIRO2
 			
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	       	      ROTINA PARA CALCULAR A RAIZ QUADRADA DE UM N⁄MERO				*
+;*	       	      ROTINA PARA CALCULAR A RAIZ QUADRADA DE UM N√öMERO				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 CALCULA_SQUARE
@@ -6570,7 +6570,7 @@ FIM_SQUARE
 
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	       	      ROTINA PARA CALCULAR A PERCENTAGEM DE UM N⁄MERO				*
+;*	       	      ROTINA PARA CALCULAR A PERCENTAGEM DE UM N√öMERO				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 CALCULA_PERCENTAGEM_MENOS
@@ -6744,7 +6744,7 @@ DISP2_OCT_VAR
 
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	       	      OPERA«’ES L”GICAS COM AS VARI¡VEIS LPA				*
+;*	       	      OPERA√á√ïES L√ìGICAS COM AS VARI√ÅVEIS LPA				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 XOR_VAR_LPA
@@ -6828,7 +6828,7 @@ SWAP_VAR_LPA
 	GOTO	INC_PONTEIRO2
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	       	   ROTINA QUE MOSTRA O CONTE⁄DO DA VARI¡VEL EM HEXADECIMAL				*
+;*	       	   ROTINA QUE MOSTRA O CONTE√öDO DA VARI√ÅVEL EM HEXADECIMAL				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 DISP1_HEX_VAR
@@ -6890,7 +6890,7 @@ DISP2_HEX_VAR
 
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	       	   ROTINA QUE MOSTRA O CONTE⁄DO DA VARI¡VEL EM BIN¡RIO				*
+;*	       	   ROTINA QUE MOSTRA O CONTE√öDO DA VARI√ÅVEL EM BIN√ÅRIO				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 DISP1_BINARY_VAR
@@ -6968,7 +6968,7 @@ VERIFICA_ENVIO
 	
 			
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*	                        ROTINA DE DIVIS√O DE 16 BITS				*
+;*	                        ROTINA DE DIVIS√ÉO DE 16 BITS				*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 DIVIDE
@@ -7010,7 +7010,7 @@ DIVIDE_B
 	GOTO	DIVIDE_C
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			       	   TABELA DE ESCOLHA DE VARI¡VEL					*
+;*			       	   TABELA DE ESCOLHA DE VARI√ÅVEL					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 		
 TABELA_VAR
@@ -7054,7 +7054,7 @@ TABELA_VAR_A
 	RETLW	D_LO_CASA2_LPA
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			       	   INICIALIZA«√O DA VARI¡VEL X					*
+;*			       	   INICIALIZA√á√ÉO DA VARI√ÅVEL X					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 POTENCIA_X_CTE
@@ -7329,7 +7329,7 @@ LOAD_WAVE_GENERATOR
 	GOTO	INC_PONTEIRO2
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  		  COMANDOS DE OSCILA«√O DE DISPLAY					*
+;*			  		  COMANDOS DE OSCILA√á√ÉO DE DISPLAY					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 SET_OSC_DISPLAY
@@ -7500,7 +7500,7 @@ LE_I2C_II
 	RETURN
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*		  		  INCREMENTO DE PONTEIRO DA P¡GINA 1					*
+;*		  		  INCREMENTO DE PONTEIRO DA P√ÅGINA 1					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 INC_PONTEIRO2
@@ -7509,7 +7509,7 @@ INC_PONTEIRO2
 	GOTO	INC_PONTEIRO
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*		  		        SAI DO IF DA P¡GINA 1					*
+;*		  		        SAI DO IF DA P√ÅGINA 1					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 SAI_DO_IF_II
@@ -7518,7 +7518,7 @@ SAI_DO_IF_II
 	GOTO	SAI_DO_IF
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*		  		  CHAMA FUN«√O PARA MOSTRAR DADOS NO LCD					*
+;*		  		  CHAMA FUN√á√ÉO PARA MOSTRAR DADOS NO LCD					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 TEMPO_LCD
@@ -7556,7 +7556,7 @@ TEMPO_LCD4
 	RETURN
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*		  		  LIMPA MEM”RIA DE DADOS					*
+;*		  		  LIMPA MEM√ìRIA DE DADOS					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 LIMPA_DADOS
@@ -7573,7 +7573,7 @@ LIMPA_DADOS
 	RETURN
 		
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*		  		  CONFIGURA«’ES INICIAIS					*
+;*		  		  CONFIGURA√á√ïES INICIAIS					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 CONFIG_
@@ -7665,7 +7665,7 @@ INIC_RAM
 	
 	
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*		  		  INICIALIZA«√O DO DISPLAY					*
+;*		  		  INICIALIZA√á√ÉO DO DISPLAY					*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
 INIC_DISPLAY
@@ -7674,7 +7674,7 @@ INIC_DISPLAY
 	CALL	DELAY_DISP			; CHAMA DELAY DE +/- 15ms
 	PAGE1
 
-; ** ESTE BLOCO N√O DEVE SER ALTERADO
+; ** ESTE BLOCO N√ÉO DEVE SER ALTERADO
 
 	MOVLW	B'00000011'		
 	CALL	TEMPO_LCD
@@ -7686,7 +7686,7 @@ INIC_DISPLAY
 	;CALL	LCD_COMANDO_4
 	;CALL	DELAY_DISP			; CHAMA DELAY DE +/- 15ms
 
-; ** DEFINI«√O DO MODO DE OPERA«√O
+; ** DEFINI√á√ÉO DO MODO DE OPERA√á√ÉO
 
 ;	MOVLW	B'00000011'			; 8 VIAS (D7..D0)
 	MOVLW	B'00000010'			; 4 VIAS (D7..D4)
@@ -7694,7 +7694,7 @@ INIC_DISPLAY
 	;CALL	LCD_COMANDO_4
 	;CALL	DELAY_DISP			; CHAMA DELAY DE +/- 15ms
 
-; ** ESCOLHA DO N⁄MERO DE LINHAS DO DISPLAY
+; ** ESCOLHA DO N√öMERO DE LINHAS DO DISPLAY
 
 ;	MOVLW	B'00100000'			; DISPLAY COM 1 LINHA E CARACTER DE 5X7 DOTS
 	MOVLW	B'00101000'			; DISPLAY COM 2 LINHAS E CARACTER DE 5X7 DOTS		
@@ -7719,7 +7719,7 @@ INIC_DISPLAY
  
 MEN_INICIAL
 
-	;MOVLW	B'00000101'				; CONFIGURA«√O DEFAULT
+	;MOVLW	B'00000101'				; CONFIGURA√á√ÉO DEFAULT
 	;MOVWF	T2CON					; DO PWM
 	
 	;MOVLW	B'00001111'
@@ -7818,7 +7818,7 @@ LOOP_B
 
 
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
-;*			  		  FIM DA P¡GINA 1						*
+;*			  		  FIM DA P√ÅGINA 1						*
 ;*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 	
 	ORG 0x0FFF
