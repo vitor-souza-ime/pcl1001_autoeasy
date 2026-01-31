@@ -1,0 +1,53 @@
+;Exemplo Controle de Cancela
+;* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+;* Controlando uma cancela                              *
+;* Cerne Tecnologia                                    *
+;* 10/07/05                                            *
+;* Versão: 1.00                                        *
+;* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+label1 for loop
+a% = 0
+
+loop
+
+if switch(1) then
+    cld
+    set(1)
+    disp(1)(Levantando a)
+    disp(2)(Cancela)
+    txdata(B)
+    delay_ms(2000)
+    clr(1)
+    txdata(C)
+
+    cld
+    disp(1)(Passe...)
+    delay_ms(4000)
+
+    cld
+    set(2)
+    disp(1)(Abaixando a)
+    disp(2)(Cancela)
+    txdata(B)
+    delay_ms(2000)
+    clr(2)
+    txdata(A)
+    delay_ms(1000)
+    cld
+
+    a% = a% + 1
+end if
+
+if switch(2) then
+    cld
+    disp(1)(Contador Zerado)
+    delay_ms(2000)
+    cld
+    a% = 0
+end if
+
+disp(1)(Total de Carros)
+disp(2)(a%)
+
+goto loop
