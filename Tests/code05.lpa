@@ -1,0 +1,191 @@
+;Exemplo de testes de I/O, LCD e Serial
+
+;**************************************************
+;* Teste do Display                               *
+;* Cerne Tecnologia                               *
+;* 09/07/05                                      *
+;* Versão: 1.00                                  *
+;**************************************************
+
+label1 for tempo
+label2 for tempo1
+label3 for tempo2
+
+disp(1)(C              a)
+call tempo
+disp(1)(Ce            ia)
+call tempo
+disp(1)(Cer          gia)
+call tempo
+disp(1)(Cern        ogia)
+call tempo
+disp(1)(Cerne      logia)
+call tempo
+disp(1)(Cerne     ologia)
+call tempo
+disp(1)(Cerne T  nologia)
+call tempo
+disp(1)(Cerne Tecnologia)
+call tempo
+
+cld
+call tempo
+call tempo
+
+disp(1)(Cerne Tecnologia)
+call tempo1
+cld
+call tempo1
+disp(1)(Cerne Tecnologia)
+call tempo1
+cld
+call tempo1
+
+disp(1)(*** PCL 1001 - 2K ***)
+disp(2)(A placa do Desenvolvedor!)
+repeat(40)
+    rotate display to left
+    call tempo1
+loop for repeat
+
+call tempo1
+call tempo1
+cld
+
+disp(1)(**Testando  as**)
+disp(2)(*** Entradas ***)
+call tempo2
+cld
+
+a%=3
+repeat(a%)
+    if switch(1) then
+        disp(1)(Switch 1 On)
+    else
+        disp(1)(Switch 1 Off)
+    end if
+    call tempo2
+    cld
+
+    if switch(2) then
+        disp(1)(Switch 2 On)
+    else
+        disp(1)(Switch 2 Off)
+    end if
+    call tempo2
+    cld
+
+    if switch(3) then
+        disp(1)(Switch 3 On)
+    else
+        disp(1)(Switch 3 Off)
+    end if
+    call tempo2
+    cld
+
+    if switch(4) then
+        disp(1)(Switch 4 On)
+    else
+        disp(1)(Switch 4 Off)
+    end if
+    call tempo2
+    cld
+
+    if switch(5) then
+        disp(1)(Switch 5 On)
+    else
+        disp(1)(Switch 5 Off)
+    end if
+    call tempo2
+    cld
+
+    if switch(6) then
+        disp(1)(Switch 6 On)
+    else
+        disp(1)(Switch 6 Off)
+    end if
+    call tempo2
+    cld
+
+    a%=a%-1
+    disp(1)(Numero de Loops)
+    disp(2)(a%)
+    call tempo2
+    cld
+loop for repeat
+
+call tempo1
+call tempo1
+cld
+
+disp(1)(**Testando  as**)
+disp(2)(**** Saídas ****)
+call tempo2
+cld
+
+b%=10
+repeat(b%)
+    b%=b%-1
+    disp(1)(Numero de Loops)
+    disp(2)(b%)
+
+    set(1)
+    set(6)
+    call tempo
+    clr(1)
+    clr(6)
+
+    set(2)
+    set(5)
+    call tempo
+    clr(2)
+    clr(5)
+
+    set(3)
+    set(4)
+    call tempo
+    clr(3)
+    clr(4)
+loop for repeat
+
+cld
+call tempo2
+
+disp(1)(**Transmitindo**)
+disp(2)(***** Dados ****)
+txdata(PCL 1001 - 2K. A placa dos sonhos do Desenvolvedor.)
+txdata(Placa básica com 2K de memória expansível até 64K!)
+txdata(Comunicação Serial, Display, D/A, A/D, Relés e entradas digitais.)
+txdata(Linguagem AutoEasy com excelente curva de aprendizagem.)
+txdata(AutoEasy Free com atualizações sem custo.)
+txdata(AutoEasy e PCL 1001 - 2K: automação, robótica e muito mais!)
+call tempo2
+
+cld
+disp(1)(****Recebendo***)
+disp(2)(***** Dados ****)
+call tempo2
+call tempo2
+cld
+
+term(15)
+cld
+goto 0
+
+;**************************************************
+; Rotinas de Delay
+;**************************************************
+
+tempo
+    delay_ms(100)
+    return
+
+tempo1
+    delay_ms(500)
+    return
+
+tempo2
+    delay_ms(800)
+    return
+
+
