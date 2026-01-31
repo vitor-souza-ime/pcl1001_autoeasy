@@ -1,0 +1,43 @@
+;Exemplo de Chamadas (Call)
+
+;* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+;* Chamando Funções                                    *
+;* Cerne Tecnologia                                    *
+;* 10/07/05                                            *
+;* Versão: 1.00                                        *
+;* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+label1 for mostrar_tela1
+label2 for mostrar_tela2
+label3 for mostrar_tela3
+label4 for novamente
+
+novamente
+
+repeat(5)
+    call    mostrar_tela1
+    call    mostrar_tela2
+    call    mostrar_tela3
+loop for repeat
+
+cld
+delay_ms(3000)
+goto novamente
+
+mostrar_tela1
+    disp(1)(*** PCL 1001 ***)
+    disp(2)(***   2 K    ***)
+    delay_ms(2000)
+    return
+
+mostrar_tela2
+    disp(1)(*** Placa de ***)
+    disp(2)(Desenvolvimento )
+    delay_ms(3000)
+    return
+
+mostrar_tela3
+    disp(1)(Controle seu Proc.)
+    disp(2)(com  FACILIDADE! )
+    delay_ms(4000)
+    return
