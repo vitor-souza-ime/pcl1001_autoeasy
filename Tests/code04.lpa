@@ -1,0 +1,41 @@
+;Exemplo Semáforo
+
+;* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+;* Controle de Semáforo                                 *
+;* Cerne Tecnologia                                    *
+;* 10/07/05                                            *
+;* Versão: 1.00                                        *
+;* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+if switch(1) then
+    txdata(RR)
+    while switch(1) do
+        disp(1)(Em manutencao...)
+        delay_ms(1000)
+        cld
+        delay_ms(1000)
+    loop
+    txdata(OP)
+    cld
+    delay_ms(1000)
+end if
+
+cld
+disp(1)(Semaforo Verde)
+disp(2)(Acionado)
+txdata(SG)
+delay_ms(5000)
+
+cld
+disp(1)(Semaforo Amarelo)
+disp(2)(Acionado)
+txdata(SY)
+delay_ms(5000)
+
+cld
+disp(1)(Semaforo Vermelho)
+disp(2)(Acionado)
+txdata(SR)
+delay_ms(5000)
+
+goto 0
