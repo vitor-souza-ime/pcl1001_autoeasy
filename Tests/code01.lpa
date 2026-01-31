@@ -1,0 +1,11 @@
+;Exemplo leitura ADC
+
+if ad_read$ > 2,00 then
+    disp(1)("Tensão do A/D")
+    disp(2)("é maior que 2,00V")
+else
+    disp(1)("Tensão do A/D")
+    disp(2)("é menor que 2,00V")
+end if
+
+goto 0
